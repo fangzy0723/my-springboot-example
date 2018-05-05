@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboorsecurity" />
+        <module name="springbootaop" />
+        <module name="springbootconfig" />
+        <module name="springbootconfigsvnserver" />
+        <module name="springbootconfigsvvnclient" />
+        <module name="springbootemail" />
+        <module name="springbootexception" />
+        <module name="springbootinteceptor" />
+        <module name="springbootlombok" />
+        <module name="springbootmybatis" />
+        <module name="springbootmybatismultiple" />
+        <module name="springbootproperties" />
+        <module name="springbootredis" />
+        <module name="springbootscheduling" />
+        <module name="springcloudclientorderservicefeign" />
+        <module name="springcloudclientorderserviceresttemplate" />
+        <module name="springcloudeureka" />
+        <module name="springcloudeurekaclientmemberservice" />
+        <module name="springcloudzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboorsecurity" target="1.8" />
+      <module name="springbootaop" target="1.8" />
+      <module name="springbootconfig" target="1.8" />
+      <module name="springbootconfigsvnserver" target="1.8" />
+      <module name="springbootconfigsvvnclient" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
+      <module name="springbootemail" target="1.8" />
+      <module name="springbootexception" target="1.8" />
+      <module name="springbootinteceptor" target="1.8" />
+      <module name="springbootlombok" target="1.8" />
+      <module name="springbootmybatis" target="1.8" />
+      <module name="springbootmybatismultiple" target="1.8" />
+      <module name="springbootproperties" target="1.8" />
+      <module name="springbootredis" target="1.8" />
+      <module name="springbootscheduling" target="1.8" />
+      <module name="springcloudclientorderservicefeign" target="1.8" />
+      <module name="springcloudclientorderserviceresttemplate" target="1.8" />
+      <module name="springcloudeureka" target="1.8" />
+      <module name="springcloudeurekaclientmemberservice" target="1.8" />
+      <module name="springcloudzuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

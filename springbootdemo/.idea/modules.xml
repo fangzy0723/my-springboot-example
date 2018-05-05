@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboorsecurity/springboorsecurity.iml" filepath="$PROJECT_DIR$/springboorsecurity/springboorsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootaop/springbootaop.iml" filepath="$PROJECT_DIR$/springbootaop/springbootaop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootconfigsvnserver/springbootconfigsvnserver.iml" filepath="$PROJECT_DIR$/springbootconfigsvnserver/springbootconfigsvnserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootconfigsvvnclient/springbootconfigsvvnclient.iml" filepath="$PROJECT_DIR$/springbootconfigsvvnclient/springbootconfigsvvnclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootemail/springbootemail.iml" filepath="$PROJECT_DIR$/springbootemail/springbootemail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootexception/springbootexception.iml" filepath="$PROJECT_DIR$/springbootexception/springbootexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootinteceptor/springbootinteceptor.iml" filepath="$PROJECT_DIR$/springbootinteceptor/springbootinteceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootlombok/springbootlombok.iml" filepath="$PROJECT_DIR$/springbootlombok/springbootlombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" filepath="$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootmybatismultiple/springbootmybatismultiple.iml" filepath="$PROJECT_DIR$/springbootmybatismultiple/springbootmybatismultiple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootproperties/springbootproperties.iml" filepath="$PROJECT_DIR$/springbootproperties/springbootproperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootredis/springbootredis.iml" filepath="$PROJECT_DIR$/springbootredis/springbootredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootscheduling/springbootscheduling.iml" filepath="$PROJECT_DIR$/springbootscheduling/springbootscheduling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudclientorderservicefeign/springcloudclientorderservicefeign.iml" filepath="$PROJECT_DIR$/springcloudclientorderservicefeign/springcloudclientorderservicefeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudclientorderserviceresttemplate/springcloudclientorderserviceresttemplate.iml" filepath="$PROJECT_DIR$/springcloudclientorderserviceresttemplate/springcloudclientorderserviceresttemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" filepath="$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudeurekaclientmemberservice/springcloudeurekaclientmemberservice.iml" filepath="$PROJECT_DIR$/springcloudeurekaclientmemberservice/springcloudeurekaclientmemberservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudzuul/springcloudzuul.iml" filepath="$PROJECT_DIR$/springcloudzuul/springcloudzuul.iml" />
+    </modules>
+  </component>
+</project>
