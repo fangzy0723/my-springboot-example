@@ -1,6 +1,3 @@
----
-title: Spring boot注解详解
----
 
 - #### @SpringBootApplication
 
@@ -10,7 +7,6 @@ title: Spring boot注解详解
 
 > 该注解修饰的函数，会将结果直接填充到HTTP的响应体中，一般用于构建RESTful Api，该注解一般会配合@RequestMapping一起使用
 
-<!-- more -->
 
 - #### @Controller
 

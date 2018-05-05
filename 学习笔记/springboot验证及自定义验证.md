@@ -1,6 +1,4 @@
----
-title: spring boot 验证及自定义验证
----
+
 
 #### spring boot 验证及自定义验证参考示例
 
@@ -37,7 +35,6 @@ title: spring boot 验证及自定义验证
     }
 ```
 
-<!-- more -->
 
 - #### domain
 

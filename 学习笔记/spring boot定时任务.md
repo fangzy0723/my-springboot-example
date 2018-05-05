@@ -1,6 +1,4 @@
----
-title: spring boot定时任务（Scheduled Tasks）
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -25,7 +23,6 @@ public class SpringBootScheduledController {
 }
 ```
 
-<!-- more -->
 
 - ### 方法二：
 

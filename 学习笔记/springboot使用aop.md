@@ -1,6 +1,4 @@
----
-title: spring boot 使用aop
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -22,7 +20,6 @@ title: spring boot 使用aop
 </dependency>
 ```
 
-<!--more-->
 
 - ### controller类
  ```

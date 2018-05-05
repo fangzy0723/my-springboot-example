@@ -1,6 +1,3 @@
----
-title: vue做微信分享
----
 
 - #### 下载weixin-js-sdk 的依赖
 
@@ -16,7 +13,6 @@ title: vue做微信分享
 
 - #### 分享及相关的前端代码
 
-<!-- more -->
 
 ```
         mounted:function () {

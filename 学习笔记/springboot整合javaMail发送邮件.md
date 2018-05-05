@@ -1,6 +1,4 @@
----
-title: spring boot 整合javaMail发送邮件
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -32,8 +30,6 @@ private JavaMailSenderImpl mailSender;
         logger.info("邮件已发送");
     }
 ```
-
-<!-- more -->
 
 2.发送html内容
 

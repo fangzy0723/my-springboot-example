@@ -1,6 +1,4 @@
----
-title: redis常用命令
----
+
 
 ###  String类型
 
@@ -19,7 +17,7 @@ title: redis常用命令
 -  append name 你好   //name的值后面追加你好
 -  strlen name  //获取key为name的值的长度，不存在返回0
 -  select 1  //选择使用下标为1的数据库   默认使用的是下标为0的    redis默认是16个数据库下标从0-15
-<!-- more -->
+
 ###  Hash类型（散列类型）
 
 > 存储的数据是map（也就是value是map类型），map中字段的值必须是string类型

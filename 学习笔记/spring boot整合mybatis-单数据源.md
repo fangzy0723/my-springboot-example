@@ -1,6 +1,4 @@
----
-title: spring boot整合mybatis-单数据源
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -11,7 +9,6 @@ title: spring boot整合mybatis-单数据源
 > 首先在启动类上添加 mapper 接口类扫描包配置注解
 @MapperScan("repository的接口包路径")
 
-<!-- more -->
 
 - #### controller
 

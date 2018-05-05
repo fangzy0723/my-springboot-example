@@ -1,6 +1,4 @@
----
-title: spring boot 文件上传
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -44,7 +42,6 @@ title: spring boot 文件上传
     }
 ````
 
-<!-- more -->
 
 - #### 多文件上传
 

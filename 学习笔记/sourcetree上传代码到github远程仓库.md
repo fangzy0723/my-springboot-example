@@ -1,6 +1,4 @@
----
-title: sourcetree上传代码到github远程仓库
----
+
 
 - #### 下载sourcetree
 
@@ -9,7 +7,7 @@ title: sourcetree上传代码到github远程仓库
 
 ![image](https://upload-images.jianshu.io/upload_images/7030886-96db6a092d1b352e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
 
-<!-- more -->
+
 
 - #### github创建新仓库
 

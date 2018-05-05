@@ -1,6 +1,4 @@
----
-title: spring boot中使用拦截器
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -38,7 +36,6 @@ title: spring boot中使用拦截器
         }
     }
 ```
-<!-- more -->
 
 2, 创建一个自定义拦截器MyiInterceptor实现HandlerInterceptor接口，重写所有的方法实现自己的业务
 

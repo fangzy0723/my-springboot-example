@@ -1,6 +1,4 @@
----
-title: spring boot统一处理自定义异常
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -24,8 +22,6 @@ public class CustomerExceptionController {
     }
 }
 ```
-
-<!--more-->
 
 - ### 自定义异常类
 

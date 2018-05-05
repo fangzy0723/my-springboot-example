@@ -1,6 +1,4 @@
----
-title: spring boot获取properties中的自定义属性
----
+
 
 > demo测试通过，使用版本如下：
 > spring boot版本：1.5.10.RELEASE
@@ -28,7 +26,7 @@ public class PropertiesValueController {
     }
 }
 ```
-<!-- more -->
+
 #### 方法二 （使用配置类的方式）
 - application.properties文件：
 ```

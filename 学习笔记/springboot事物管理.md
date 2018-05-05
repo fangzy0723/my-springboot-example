@@ -1,6 +1,4 @@
----
-title: springboot 事物管理
----
+
 
 > Spring Boot 默认集成事务，所以无须手动开启。 使用 @EnableTransactionManagement 注解，就可以用 @Transactional注解进行事务管理。使用了 @EnableTransactionManagement 后，Spring 会自动扫描注解 @Transactional 的方法和类。
 
@@ -17,7 +15,6 @@ noRollbackFor 修饰表明不做事务回滚,rollbackFor 修饰的表明需要�
 
 @Rollback标签是需要配合@Transcational标签共同使用的，加了Transactional标签的方法，会默认视为@Rollback(true)，如果让这个方法不回滚，那么就要手动设置@Rollback(false)
 
-<!-- more -->
 
 - ### 事物特性:
 

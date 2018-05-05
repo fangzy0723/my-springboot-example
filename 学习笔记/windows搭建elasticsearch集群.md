@@ -1,6 +1,4 @@
----
-title: windows搭建elasticsearch集群
----
+
 
 > 首先确保已经安装了node环境,JDK版本1.8+
 
@@ -16,7 +14,6 @@ title: windows搭建elasticsearch集群
 
 ![image](https://upload-images.jianshu.io/upload_images/7030886-f4bb49de7fcb0b83.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
 
-<!-- more -->
 
 - #### 修改主节点配置文件
 
