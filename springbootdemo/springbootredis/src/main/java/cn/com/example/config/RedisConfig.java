@@ -1,44 +1,28 @@
 package cn.com.example.config;
 
-import org.springframework.cache.CacheManager;
-import org.springframework.cache.annotation.CachingConfigurerSupport;
-import org.springframework.cache.annotation.EnableCaching;
-import org.springframework.cache.interceptor.KeyGenerator;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.redis.cache.RedisCacheManager;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 
-import java.lang.reflect.Method;
+import java.net.UnknownHostException;
 
 
 /**
  * Created by fangzy on 2018/3/20 14:33
  */
 @Configuration
-@EnableCaching
-public class RedisConfig extends CachingConfigurerSupport {
-    @Bean
-    public KeyGenerator keyGenerator() {
-        return new KeyGenerator() {
-            @Override
-            public Object generate(Object target, Method method, Object... params) {
-                StringBuilder sb = new StringBuilder();
-                sb.append(target.getClass().getName());
-                sb.append(method.getName());
-                for (Object obj : params) {
-                    sb.append(obj.toString());
-                }
-                return sb.toString();
-            }
-        };
-    }
+public class RedisConfig{
 
-//    @Bean
-//    public CacheManager cacheManager(RedisTemplate redisTemplate) {
-//        RedisCacheManager rcm = new RedisCacheManager(redisTemplate);
-//        //设置缓存过期时间
-//        //rcm.setDefaultExpiration(60);//秒
-//        return rcm;
-//    }
+    @Bean
+    @ConditionalOnMissingBean(name = "redisTemplate")
+    public RedisTemplate<Object, Object> redisTemplate(
+            RedisConnectionFactory redisConnectionFactory) throws UnknownHostException {
+        RedisTemplate<Object, Object> template = new RedisTemplate<>();
+        template.setConnectionFactory(redisConnectionFactory);
+        template.setDefaultSerializer(new GenericJackson2JsonRedisSerializer());
+        return template;
+    }
 }

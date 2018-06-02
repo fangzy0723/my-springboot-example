@@ -4,28 +4,45 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootproperties/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootexception/pom.xml" />
         <option value="$PROJECT_DIR$/springbootaop/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootscheduling/pom.xml" />
         <option value="$PROJECT_DIR$/springbootemail/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootinteceptor/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootmybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootmybatismultiple/pom.xml" />
         <option value="$PROJECT_DIR$/springbootredis/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootconfigsvnserver/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootconfigsvvnclient/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudzuul/pom.xml" />
         <option value="$PROJECT_DIR$/springbootlombok/pom.xml" />
-        <option value="$PROJECT_DIR$/springboorsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootmybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springcloudeureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboorsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootexception/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootinteceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootproperties/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootscheduling/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootconfigsvnserver/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootmybatismultiple/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootconfigsvvnclient/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudclientorderservicefeign/pom.xml" />
         <option value="$PROJECT_DIR$/springcloudeurekaclientmemberservice/pom.xml" />
         <option value="$PROJECT_DIR$/springcloudclientorderserviceresttemplate/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloudzuul/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloudclientorderservicefeign/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootspringdatajpa/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

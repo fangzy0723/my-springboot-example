@@ -1,11 +1,13 @@
 package cn.com.example.service;
 
+import cn.com.example.domain.User;
 import javafx.application.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -19,67 +21,28 @@ public class RedisServiceTest {
     @Autowired
     RedisTemplate redisTemplate;
     @Autowired
-    RedisService redisService;
+    StringRedisTemplate stringRedisTemplate;
+
+    /**
+     *  字符串（strings）: stringRedisTemplate.opsForValue()
+     *  散列（hashes）： stringRedisTemplate.opsForHash()
+     *  列表（lists）：stringRedisTemplate.opsForList()
+     *  集合（sets）：stringRedisTemplate.opsForSet()
+     *  有序集合（sorted sets）：stringRedisTemplate.opsForZSet()
+     * @throws Exception
+     */
 
     @Test
-    public void set() throws Exception {
-        redisService.set("name","fangzy");
+    public void testStringRedisTemplate() throws Exception {
+        stringRedisTemplate.opsForValue().set("age","22");
+        System.out.println(stringRedisTemplate.opsForValue().get("age"));
+    }
+    @Test
+    public void testredisTemplate() throws Exception {
+        redisTemplate.opsForValue().set("user",new User(1,"fangzy",20));
+        System.out.println(redisTemplate.opsForValue().get("user"));
     }
 
-    @Test
-    public void set1() throws Exception {
-    }
 
-    @Test
-    public void exists() throws Exception {
-    }
-
-    @Test
-    public void get() throws Exception {
-    }
-
-    @Test
-    public void remove() throws Exception {
-    }
-
-    @Test
-    public void remove1() throws Exception {
-    }
-
-    @Test
-    public void removePattern() throws Exception {
-    }
-
-    @Test
-    public void hashSet() throws Exception {
-    }
-
-    @Test
-    public void hashGet() throws Exception {
-    }
-
-    @Test
-    public void push() throws Exception {
-    }
-
-    @Test
-    public void range() throws Exception {
-    }
-
-    @Test
-    public void setAdd() throws Exception {
-    }
-
-    @Test
-    public void setMembers() throws Exception {
-    }
-
-    @Test
-    public void zAdd() throws Exception {
-    }
-
-    @Test
-    public void rangeByScore() throws Exception {
-    }
 
 }

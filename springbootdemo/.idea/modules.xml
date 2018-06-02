@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/springbootproperties/springbootproperties.iml" filepath="$PROJECT_DIR$/springbootproperties/springbootproperties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootredis/springbootredis.iml" filepath="$PROJECT_DIR$/springbootredis/springbootredis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootscheduling/springbootscheduling.iml" filepath="$PROJECT_DIR$/springbootscheduling/springbootscheduling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootspringdatajpa/springbootspringdatajpa.iml" filepath="$PROJECT_DIR$/springbootspringdatajpa/springbootspringdatajpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudclientorderservicefeign/springcloudclientorderservicefeign.iml" filepath="$PROJECT_DIR$/springcloudclientorderservicefeign/springcloudclientorderservicefeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudclientorderserviceresttemplate/springcloudclientorderserviceresttemplate.iml" filepath="$PROJECT_DIR$/springcloudclientorderserviceresttemplate/springcloudclientorderserviceresttemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" filepath="$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" />
