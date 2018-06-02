@@ -29,13 +29,13 @@ public interface CustomerService {
     /**
      * 调用spring data jpa提供的方法进行修改
      */
-    Customer update();
+    Customer update(Integer id);
 
     /**
      * 调用spring data jpa提供的方法根据id进行删除
      * @param id
      */
-    void updateById(Integer id);
+    void deleteById(Integer id);
 
 
     /**
@@ -43,30 +43,28 @@ public interface CustomerService {
      * @param name
      * @return
      */
-    Customer findByName(String name);
+    List<Customer> findByName(String name);
 
     /**
-     * 根据spring data jpa 命名规则定义查询方法
      * 使用@Query注解 执行SQL查询语句
      * @param name
      * @return
      */
-    Customer findByNameByQuerySQL(String name);
+    List<Customer> findByNameByQuerySQL(String name);
 
     /**
-     * 根据spring data jpa 命名规则定义查询方法
      * 使用@Query注解 执行JPQL查询语句
      * @param name
      * @return
      */
-    Customer findByNameByQueryJPQL(String name);
+    List<Customer> findByNameByQueryJPQL(String name);
 
     /**
      * 调用spring data jpa提供的根据字段排序
      * @param id 排序字段
      * @return
      */
-    List<Customer> findAllByIdSort(Integer id);
+    List<Customer> findAllByIdSort(String id);
 
     /**
      * 调用spring data jpa提供的分页查询
@@ -83,7 +81,7 @@ public interface CustomerService {
      * @param pageSize  每页的条数
      * @return
      */
-    List<Customer> findAllPageAndSort(Integer id,Integer page,Integer pageSize);
+    List<Customer> findAllPageAndSort(String id,Integer page,Integer pageSize);
 
     /**
      * 根据条件动态拼查询条件
