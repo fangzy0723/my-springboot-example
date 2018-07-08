@@ -5,7 +5,7 @@
 
 	<groupId>cn.com.example</groupId>
 	<artifactId>springbootproperties</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.10-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>springbootproperties</name>
