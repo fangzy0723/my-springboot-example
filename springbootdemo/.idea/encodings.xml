@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/java8demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboorsecurity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootaop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootconfigsvnserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootconfigsvvnclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootelasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootemail" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootexception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootinteceptor" charset="UTF-8" />
@@ -12,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/springbootmybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootmybatismultiple" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootproperties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootrabbit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootredis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootscheduling" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootspringdatajpa" charset="UTF-8" />
@@ -19,6 +22,8 @@
     <file url="file://$PROJECT_DIR$/springcloudclientorderserviceresttemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudeureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudeurekaclientmemberservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudgateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudnetflixturbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudzuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

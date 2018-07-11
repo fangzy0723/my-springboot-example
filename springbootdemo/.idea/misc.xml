@@ -23,6 +23,11 @@
         <option value="$PROJECT_DIR$/springcloudeurekaclientmemberservice/pom.xml" />
         <option value="$PROJECT_DIR$/springcloudclientorderserviceresttemplate/pom.xml" />
         <option value="$PROJECT_DIR$/springbootspringdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudnetflixturbine/pom.xml" />
+        <option value="$PROJECT_DIR$/java8demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootelasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudgateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootrabbit/pom.xml" />
       </list>
     </option>
   </component>
