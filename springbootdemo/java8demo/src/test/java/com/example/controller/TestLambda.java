@@ -19,6 +19,17 @@ import java.util.stream.Collectors;
 //@SpringBootTest
 public class TestLambda {
 
+     /**
+      * Lambda 读取文件
+      */
+    @Test
+    public void testLambda0(){
+
+        //读取文件，每次读取一行，把非空行放到list中
+        List<String> collect = Files.lines(Paths.get("C:\\Users\\hdbx\\Desktop\\aa")).filter(e -> !StringUtils.isEmpty(e)).collect(Collectors.toList());
+        System.out.println(collect);
+
+    }
 
     /**
      * Lambda 表达式语法一：无参数无返回值
